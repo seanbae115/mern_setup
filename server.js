@@ -13,9 +13,9 @@ app.use(express.static(path.resolve(__dirname, 'client', 'dist')));
 //     res.send('<h1>App is working with Nodemon</h1>')
 // });
 
-app.get('/test', (req, res) => {
-    res.send('<h1>This is a test route.</h1>')
-});
+// app.get('/test', (req, res) => {
+//     res.send('<h1>This is a test route.</h1>')
+// });
 
 app.get('/api/get-user', (req, res) => {
     res.send({
